@@ -1,0 +1,41 @@
+# AWS Credentials - NEVER COMMIT THESE
+*.csv
+*credentials*
+*.pem
+*.key
+access_key*
+secret_key*
+config
+credentials
+
+# Sensitive Data
+*password*
+*secret*
+backup-codes.txt
+account-info.txt
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# Personal Notes
+notes/private/
+todo-private.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
