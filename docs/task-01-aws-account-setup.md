@@ -11,7 +11,7 @@ Set up AWS Free Tier account with proper security controls including MFA and IAM
 ## What I Built
 
 ### 1. AWS Free Tier Account
-- **Account ID:** 283487845477
+- **Account ID:** 2XXXXXXXXX
 - **Account Name:** sk-security-lab
 - **Region:** ap-south-1 (Mumbai)
 - **Purpose:** Cloud security hands-on lab environment
@@ -23,11 +23,11 @@ Set up AWS Free Tier account with proper security controls including MFA and IAM
 - ❌ Root account access restricted (not for daily use)
 
 ### 3. IAM Administrative User
-- **Username:** skadmin
+- **Username:** sXXXXXX
 - **Access Type:** AWS Management Console
 - **Permissions:** AdministratorAccess policy
 - **MFA:** Enabled (Google Authenticator)
-- **Console Sign-in URL:** https://283487845477.signin.aws.amazon.com/console
+- **Console Sign-in URL:** https://2XXXXXXXX.signin.aws.amazon.com/console
 
 ## Step-by-Step Process
 
@@ -44,7 +44,7 @@ Set up AWS Free Tier account with proper security controls including MFA and IAM
 3. Documented root account credentials separately
 
 ### Phase 3: IAM User Setup
-1. Created IAM user: `skadmin`
+1. Created IAM user: `sXXXXX`
 2. Granted AdministratorAccess permissions
 3. Enabled console access with custom password
 4. Configured MFA for IAM user
